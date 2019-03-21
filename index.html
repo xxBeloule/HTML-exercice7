@@ -1,0 +1,56 @@
+<html>
+  <head>
+  <title>Formulaire</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+<form action="index.html" method="post">
+  <fieldset id="p1">
+  <legend id="p1">Votre identité</legend>
+      <ol>
+<li> <label for="name">Nom :</label>
+    <input placeholder="Nom"type="text" id="name" name="nom"> </li>
+
+    <li> <label for="prénom">Prénom :</label>
+    <input placeholder="Prénom"type="text" id="prénom" name="prénom"> </li>
+
+    <li> <label for="mail">Adresse mail :</label>
+    <input placeholder="Adresse mail"type="mail" id="mail" name="mail"> </li>
+</ol>
+</fieldset>
+<fieldset id="p2">
+<legend id="p2">Adresse de livraison</legend>
+    <ol>
+<li> <label for="adresse">Adresse :</label>
+  <textarea name="adresse" rows="8" cols="20"> </textarea></li>
+
+  <li> <label for="postal">Code postal :</label>
+  <input placeholder="Code postal"type="text" id="postal" name="postal"> </li>
+
+  <li> <label for="ville">Ville :</label>
+  <input placeholder="Ville"type="text" id="ville" name="ville"> </li>
+</ol>
+</fieldset>
+<fieldset id="p3">
+<legend id="p3">Informations de réglements</legend>
+    <ol>
+<li><label for="choix">Type de carte bancaire :</label>
+  <div> <INPUT type="radio" name="choix" value="1"> Visa</div>
+  <div> <INPUT type="radio" name="choix" value="2"> Mastercard</div></li>
+
+
+  <li> <label for="carte">Numero de carte :</label>
+  <input placeholder="Numero de carte"type="text" id="carte" name="carte"> </li>
+
+  <li> <label for="code">Code de sécurité :</label>
+  <input placeholder="Code de sécurité"type="text" id="code" name="code"> </li>
+
+  <li> <label for="titulaire">Nom du titulaire :</label>
+  <input placeholder="Nom du titulaire"type="text" id="titulaire" name="titulaire"> </li>
+</ol>
+</fieldset>
+<input TYPE="submit" NAME="envoyer" VALUE="J'achéte">
+</form>
+  </body>
